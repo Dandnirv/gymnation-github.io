@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gymnation</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a8d87c8891.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="scrollbar-hide">
+    <div
+      class="wrapper-home w-full h-screen mx-auto my-0 bg-no-repeat bg-cover"
+      style="
+        background-image: url(./images/background.jpg);
+        background-position: 40% 60%;
+      "
+    >
+      <section
+        id="home"
+        class="bg-gradient-to-b from-shadow-first to-shadow-second w-full h-full"
+      >
+        <header class="w-full text-white">
+          <div class="lg:h-20 lg:py-8 container h-16 py-6 m-auto">
+            <div class="flex flex-wrap items-center justify-between">
+              <div
+                class="lg:w-auto lg:-mt-4 relative z-10 flex items-center justify-between w-full px-6"
+              >
+                <a href="#" id="logo" class="text-[2rem] font-semibold">
+                  Gymnation
+                </a>
+
+                <button
+                  id="fries"
+                  class="lg:hidden relative w-10 h-10 opacity-100"
+                >
+                  <div
+                    id="top-line"
+                    class="inset-0 w-8 ml-2 h-[5px] m-auto rounded bg-white transition duration-300"
+                  ></div>
+                  <div
+                    id="mid-line"
+                    class="inset-0 w-6 h-[5px] mt-1.5 ml-4 rounded bg-white transition duration-300"
+                  ></div>
+                  <div
+                    id="bottom-line"
+                    class="inset-0 w-8 ml-2 h-[5px] mt-1.5 m-auto rounded bg-white transition duration-300"
+                  ></div>
+                </button>
+              </div>
+
+              <div
+                id="menu-toggle"
+                class="hidden w-full h-full bg-gradient-to-b from-shadow-first to-shadow-second px-6 fixed lg:absolute lg:bg-none lg:right-0 lg:bg-transparent lg:w-auto lg:block top-0 z-5 pt-[80px] lg:pt-2 lg:mr-8 lg:mt-2"
+              >
+                <ul
+                  class="lg:flex lg:pt-0 lg:items-center lg:space-x-16 lg:mr-0 lg:w-full pt-4 pb-6 text-lg text-center text-gray-600"
+                >
+                  <li>
+                    <a
+                      href="#home"
+                      class="hover:text-white hover:bg-purple-500 focus:bg-purple-600 block py-3 font-medium text-white transition rounded-lg"
+                    >
+                      <span>Home</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#pricing"
+                      class="hover:bg-purple-500 focus:bg-purple-600 block py-3 font-medium text-white transition rounded-lg"
+                    >
+                      <span>Pricing</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#career"
+                      class="hover:bg-purple-500 focus:bg-purple-600 block py-3 font-medium text-white transition rounded-lg"
+                    >
+                      <span>Career</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#blog"
+                      class="hover:bg-purple-500 focus:bg-purple-600 block py-3 font-medium text-white transition rounded-lg"
+                    >
+                      <span>Blog</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#about"
+                      class="hover:bg-purple-500 focus:bg-purple-600 block py-3 font-medium text-white transition rounded-lg"
+                    >
+                      <span>About US</span>
+                    </a>
+                  </li>
+                  <li class="lg:mt-0 mt-4">
+                    <a
+                      href="#contact"
+                      class="block py-3 bg-purple-500 hover:bg-purple-600 focus:bg-purple-700 transition text-white rounded-lg lg:px-2 lg:rounded-[50px] lg:w-36"
+                    >
+                      <span class="block font-semibold text-center text-white"
+                        >Contact</span
+                      >
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="content mt-[60px] px-5 w-full h-[80vh] my-0 mx-auto">
+          <h3
+            class="mt-20 mb-[30px] w-full text-primary text-[1.3rem] font-semibold"
+          >
+            Gym Station
+          </h3>
+          <h1 class="text-primary mb-20px text-[2.8rem] font-bold leading-none">
+            Take care of your health with our exercise plans.
+          </h1>
+          <p class="text-secondary text-[1.2rem] leading-6 pr-7 mb-[30px]">
+            We have been creating and implementing projects for many years all
+            over the world, we have hundreads of satisfied customers.
+          </p>
+          <a
+            href="#"
+            class="h-[65px] w-[260px] font-semibold text-white bg-gradient-to-r from-purple-500 to-violet-500 rounded-[50px] pt-[18px] pl-[40px] inline-block text-[1.2em] hover:to-purple-500 active:bg-purple-700"
+            >Read more<i class="fa-solid fa-right-long ml-14 text-[1.4rem]"></i
+          ></a>
+
+          <div
+            class="arrow-navigation flex items-center justify-center h-[10vh] mt-8"
+          >
+            <a
+              href="#pricing"
+              class="inline-block w-[60px] h-[60px] border-solid border-2 rounded-[50%] border-white hover:bg-white transition hover:ease-in-out duration-500 hover:shadow-chevron"
+              ><i
+                class="fa-solid fa-chevron-down text-[1rem] block font-bold ml-20px mt-5"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Pricing -->
+    <div
+      class="wrapper-pricing w-full h-[580vh] mx-auto my-0"
+      style="
+        background-image: radial-gradient(
+          circle 976px at 51.2% 51%,
+          rgb(26, 9, 42) 0%,
+          rgb(116, 116, 116) 0%,
+          rgba(26, 9, 42, 1) 25.3%,
+          rgba(26, 9, 42, 1) 58.8%,
+          rgba(26, 9, 42, 1) 71.4%
+        );
+      "
+    >
+      <section
+        id="price"
+        class="bg-gradient-to-b from-shadow-first to-shadow-second w-full h-[580vh] pt-[50px] px-5"
+      >
+        <div class="card-offers flex flex-col mb-20 mt-[50px]" id="pricing">
+          <div
+            class="experience-benefit flex flex-col border-2 border-solid border-border-benefit bg-none rounded-xl pt-16 px-5 h-[450px] w-[350px] hover:bg-black hover:shadow-box-shadow transition duration-[250ms] ease-in mb-7 group"
+          >
+            <div
+              class="experience-logo w-[60px] h-[60px] bg-gradient-to-r from-violet-500 to-fuchsia-500 border-2 border-solid border-border-benefit rounded-full group-hover:bg-none transition duration-700 ease-in-out mb-5"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+                class="h-10 w-10 ml-2 mt-[7px] fill-white"
+              >
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"
+                />
+              </svg>
+            </div>
+            <div class="experience-content">
+              <h1 class="mb-5 text-[2rem]">Experience</h1>
+              <p class="group-hover:text-white mb-[30px] pr-12">
+                Our specialists take care of your form and they will check and
+                talk to you if you have any questions during the execution of
+                the exercise plans.
+              </p>
+              <a href="#" class="text-[1.2rem] font-semibold flex">
+                Read more<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  class="fill-white w-5 h-5 mt-1 ml-3"
+                >
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM406.6 278.6l-103.1 103.1c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25L306.8 288H128C110.3 288 96 273.7 96 256s14.31-32 32-32h178.8l-49.38-49.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l103.1 103.1C414.6 241.3 416 251.1 416 256C416 260.9 414.6 270.7 406.6 278.6z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="coach-benefit experience-benefit flex flex-col border-2 border-solid border-border-benefit bg-none rounded-xl pt-16 px-5 h-[470px] w-[350px] hover:bg-black hover:shadow-box-shadow transition duration-[250ms] ease-in mb-7 group"
+          >
+            <div
+              class="coach-logo w-[60px] h-[60px] bg-gradient-to-r from-violet-500 to-fuchsia-500 border-2 border-solid border-border-benefit rounded-full group-hover:bg-none transition duration-500 ease-in-out mb-5"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="group-hover:fill-white w-10 h-10 mt-2 ml-2"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="coach-content">
+              <h1 class="mb-5 text-[2rem]">Coach Trainer</h1>
+              <p class="group-hover:text-white mb-[30px] pr-[58px]">
+                Our personal trainers are available for you, you can send an
+                inquiry at any time or call your trainer. Use the price list and
+                choose the right plan for you.
+              </p>
+              <a href="#" class="text-[1.2rem] font-semibold flex"
+                >Read more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  class="fill-white w-5 h-5 mt-1 ml-3"
+                >
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM406.6 278.6l-103.1 103.1c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25L306.8 288H128C110.3 288 96 273.7 96 256s14.31-32 32-32h178.8l-49.38-49.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l103.1 103.1C414.6 241.3 416 251.1 416 256C416 260.9 414.6 270.7 406.6 278.6z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div
+            class="nutritional-benefit experience-benefit flex flex-col border-2 border-solid border-border-benefit bg-none rounded-xl pt-16 px-5 h-[450px] w-[350px] group hover:bg-black hover:shadow-box-shadow transition duration-[250ms] ease-in mb-7"
+          >
+            <div
+              class="nutritional-logo w-[60px] h-[60px] bg-gradient-to-r from-violet-500 to-fuchsia-500 border-2 border-solid border-border-benefit rounded-full transition duration-500 ease-in-out mb-5 group-hover:bg-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+                class="h-9 w-9 ml-[10px] mt-[10px] fill-white"
+              >
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M256 196C256 229.1 227.3 256 192 256C156.7 256 128 229.1 128 196C128 171.1 161.7 125.9 180.2 102.5C186.3 94.77 197.7 94.77 203.8 102.5C222.3 125.9 256 171.1 256 196V196zM352 0C360.9 0 369.4 3.692 375.4 10.19C381.5 16.69 384.6 25.42 383.9 34.28L355.1 437.7C352.1 479.6 317.3 512 275.3 512H108.7C66.72 512 31.89 479.6 28.9 437.7L.0813 34.28C-.5517 25.42 2.527 16.69 8.58 10.19C14.63 3.692 23.12 0 32 0L352 0zM96 304C116.1 314.1 139.9 314.1 160 304C180.1 293.9 203.9 293.9 224 304C244.1 314.1 267.9 314.1 288 304L300.1 297.5L317.6 64H66.37L83.05 297.5L96 304z"
+                />
+              </svg>
+            </div>
+            <div class="nutritional-content">
+              <h1 class="text-[2rem] mb-5">Nutritional Diet</h1>
+              <p class="group-hover:text-white mb-[30px] pr-16">
+                You will also get access to a premium account, thanks to which
+                you will hace access to articles with advice and tips for
+                cooking.
+              </p>
+              <a href="#" class="text-[1.2rem] font-semibold flex"
+                >Read more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  class="fill-white w-5 h-5 mt-1 ml-3"
+                >
+                  <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM406.6 278.6l-103.1 103.1c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25L306.8 288H128C110.3 288 96 273.7 96 256s14.31-32 32-32h178.8l-49.38-49.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l103.1 103.1C414.6 241.3 416 251.1 416 256C416 260.9 414.6 270.7 406.6 278.6z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- rating by customers -->
+        <div class="offers-wrapper">
+          <div class="offers">
+            <div class="rating">
+              <div class="rating-logo mb-5">
+                <span
+                  class="block h-[75px] w-[75px] bg-gray-600/30 rounded-full relative"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512"
+                    class="fill-purple-400 absolute block w-10 h-10 mt-4 ml-4"
+                  >
+                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M336 64h-53.88C268.9 26.8 233.7 0 192 0S115.1 26.8 101.9 64H48C21.5 64 0 85.48 0 112v352C0 490.5 21.5 512 48 512h288c26.5 0 48-21.48 48-48v-352C384 85.48 362.5 64 336 64zM192 64c17.67 0 32 14.33 32 32s-14.33 32-32 32S160 113.7 160 96S174.3 64 192 64zM282.9 262.8l-88 112c-4.047 5.156-10.02 8.438-16.53 9.062C177.6 383.1 176.8 384 176 384c-5.703 0-11.25-2.031-15.62-5.781l-56-48c-10.06-8.625-11.22-23.78-2.594-33.84c8.609-10.06 23.77-11.22 33.84-2.594l36.98 31.69l72.52-92.28c8.188-10.44 23.3-12.22 33.7-4.062C289.3 237.3 291.1 252.4 282.9 262.8z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="numbers-rating">
+                <h1
+                  class="text-[6.5rem] text-purple-400 font-semibold h-32 block w-full"
+                >
+                  1400+
+                </h1>
+                <span class="star-rate flex w-full h-full mb-5 -mt-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-purple-400 w-6 h-6"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-purple-400 w-6 h-6"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-purple-400 w-6 h-6"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-purple-400 w-6 h-6"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-purple-400 w-6 h-6"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="review h-2/4 w-full">
+                <h1 class="text-[2.1rem] block h-full w-full">
+                  Satisfied Customers
+                </h1>
+                <p class="h-full w-full blocktext-[1.05rem] text-secondary">
+                  So many people have already trusted us. This number is
+                  consantly growing thanks to the positive feedback from our
+                  customers.
+                </p>
+                <a href="#" class="text-[1.2rem] font-semibold flex">
+                  Read more<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    class="fill-white w-5 h-5 mt-1 ml-3"
+                  >
+                    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM406.6 278.6l-103.1 103.1c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25L306.8 288H128C110.3 288 96 273.7 96 256s14.31-32 32-32h178.8l-49.38-49.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l103.1 103.1C414.6 241.3 416 251.1 416 256C416 260.9 414.6 270.7 406.6 278.6z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="freedom">
+              <div class="image-freedom">
+                <img
+                  src="./images/gym-leg.jpg"
+                  alt="hero-gym"
+                  class="h-full w-full rounded-tr-[50px] mt-14"
+                />
+                <div class="freedom-content">
+                  <h1
+                    class="leading-10 h-full w-full block pr-5 text-[3.1rem] -mt-16"
+                  >
+                    Get in shape and training at the gym or home.
+                  </h1>
+                  <p class="">
+                    We have been creating and implementing projects for many
+                    years all over the world, we have hundreads of satisfied
+                    customers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="price">
+              <div
+                class="standard border-2 border-solid border-border-benefit bg-none rounded-xl pt-10 px-5 h-[500px] w-[350px] hover:bg-black hover:shadow-box-shadow transition duration-[250ms] ease-in mt-20 mb-7 group"
+              >
+                <div
+                  class="standard-logo w-[120px] h-8 rounded-[30px] mb-10 bg-black group-hover:bg-slate-100/50"
+                >
+                  <h3
+                    class="text-[1.2rem] text-purple-500 font-semibold text-center group-hover:text-purple-600 pt-[1px]"
+                  >
+                    Standard
+                  </h3>
+                </div>
+                <div class="standard-price flex">
+                  <h1 class="text-[3rem]">$29</h1>
+                  <h3 class="text-[1.3rem] mt-5 ml-5">/ Month</h3>
+                </div>
+                <p class="group-hover:text-white pr-5">
+                  Package for beginners and less demanding customers. You can
+                  upgrade to a higher package at any time
+                </p>
+                <div class="standard-benefit mt-10">
+                  <div
+                    class="first-benefit border-white/50 group-hover:border-white/30 flex pb-3 mb-5 border-b-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      class="fill-white h5 w-4 font-semibold"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                    <h3 class="ml-5 font-semibold text-[1.1rem]">
+                      Personal Trainer
+                    </h3>
+                  </div>
+                  <div
+                    class="second-benefit border-white/50 group-hover:border-white/30 flex pb-3 mb-5 border-b-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      class="fill-white h5 w-4 font-semibold"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                    <h3 class="ml-5 font-semibold text-[1.1rem]">
+                      Dedicated Training Plan
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Start of Premium Price -->
+              <div
+                class="premium border-2 border-solid border-border-benefit bg-none rounded-xl pt-10 px-5 h-[640px] w-[350px] hover:bg-black hover:shadow-box-shadow transition duration-[250ms] ease-in mt-20 mb-7 group"
+              >
+                <div
+                  class="premium-logo w-[120px] h-8 rounded-[30px] mb-10 bg-black group-hover:bg-slate-100/50"
+                >
+                  <h3
+                    class="text-[1.2rem] text-purple-500 font-semibold text-center pt-[1px] group-hover:text-purple-600"
+                  >
+                    Premium
+                  </h3>
+                </div>
+                <div class="premium-price flex">
+                  <h1 class="text-[3rem]">$49</h1>
+                  <h3 class="text-[1.3rem] mt-5 ml-5">/ Month</h3>
+                </div>
+                <p class="group-hover:text-white pr-10">
+                  Advanced package for demanding customers. You can switch to
+                  standard package or medium package at any time.
+                </p>
+                <div class="premium-benefit mt-10">
+                  <div
+                    class="first-benefit border-white/50 group-hover:border-white/30 flex pb-3 mb-5 border-b-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      class="fill-white h5 w-4 font-semibold"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                    <h3 class="ml-5 font-semibold text-[1.1rem]">
+                      Personal Trainer
+                    </h3>
+                  </div>
+                  <div
+                    class="second-benefit border-white/50 group-hover:border-white/30 flex pb-3 mb-5 border-b-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      class="fill-white h5 w-4 font-semibold"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                    <h3 class="ml-5 font-semibold text-[1.1rem]">
+                      Dedicated Training Plan
+                    </h3>
+                  </div>
+                  <div
+                    class="third-benefit border-white/50 group-hover:border-white/30 flex pb-3 mb-5 border-b-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      class="fill-white h5 w-4 font-semibold"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                    <h3 class="ml-5 font-semibold text-[1.1rem]">
+                      Premium support for Diets
+                    </h3>
+                  </div>
+                  <div
+                    class="fourth-benefit border-white/50 group-hover:border-white/30 flex pb-3 mb-5 border-b-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      class="fill-white h5 w-4 font-semibold"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                    <h3 class="ml-5 font-semibold text-[1.1rem]">
+                      Access to nutrients
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Start of Medium Price -->
+              <div
+                class="medium border-2 border-solid border-border-benefit bg-none rounded-xl pt-10 px-5 h-[560px] w-[350px] hover:bg-black hover:shadow-box-shadow transition duration-[250ms] ease-in mt-20 mb-7 group"
+              >
+                <div
+                  class="medium-logo w-[120px] h-8 rounded-[30px] mb-10 bg-black group-hover:bg-slate-100/50"
+                >
+                  <h3
+                    class="text-[1.2rem] text-purple-500 font-semibold text-center pt-[1px] group-hover:text-purple-600"
+                  >
+                    Medium
+                  </h3>
+                </div>
+                <div class="medium-price flex">
+                  <h1 class="text-[3rem]">$29</h1>
+                  <h3 class="text-[1.3rem] mt-5 ml-5">/ Month</h3>
+                </div>
+                <p class="group-hover:text-white pr-5">
+                  Package for beginners and less demanding customers. You can
+                  upgrade to a higher package at any time
+                </p>
+                <div class="medium-benefit mt-10">
+                  <div
+                    class="first-benefit border-white/50 group-hover:border-white/30 flex pb-3 mb-5 border-b-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      class="fill-white h5 w-4 font-semibold"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                    <h3 class="ml-5 font-semibold text-[1.1rem]">
+                      Personal Trainer
+                    </h3>
+                  </div>
+                  <div
+                    class="second-benefit border-white/50 group-hover:border-white/30 flex pb-3 mb-5 border-b-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      class="fill-white h5 w-4 font-semibold"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                    <h3 class="ml-5 font-semibold text-[1.1rem]">
+                      Dedicated Training Plan
+                    </h3>
+                  </div>
+                  <div
+                    class="third-benefit border-white/50 group-hover:border-white/30 flex pb-3 mb-5 border-b-2"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      class="fill-white h5 w-4 font-semibold"
+                    >
+                      <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"
+                      />
+                    </svg>
+                    <h3 class="ml-5 font-semibold text-[1.1rem]">
+                      Premium support for Diets
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Career -->
+    <div
+      class="wrapper-career w-full h-[280vh] mx-auto my-0"
+      style="background: black"
+    >
+      <section class="bg-black w-full h-[280vh] pt-[50px] px-5" id="career">
+        <div class="career-wrapper">
+          <div class="content-schedule">
+            <div class="content">
+              <h3 class="text-[1.5rem] text-teal-500 font-semibold mb-[30px]">
+                Job List
+              </h3>
+              <h1 class="text-[3rem] leading-[42px] tracking-tight">
+                Search Our Joblist
+              </h1>
+              <p class="pr-1 mb-10 leading-6">
+                If you are looking for a job and want to join our group, we are
+                constantly recruiting new employers for the indicated positions.
+              </p>
+              <div class="content-image flex">
+                <img
+                  src="./images/coach.png"
+                  alt="coach"
+                  class="w-16 h-16 rounded-full"
+                />
+                <h3 class="text-[1.3rem] text-teal-500 ml-5 font-semibold mt-4">
+                  Dandi Nirpana N
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="schedule">
+            <!-- Start of Professional -->
+            <div
+              class="professional group rounded-xl bg-career hover:bg-gradient-to-tr hover:from-violet-600 hover:to-purple-500 flex flex-col pt-16 mt-20 transition duration-500"
+            >
+              <div class="professional-card rounded-xl px-5 h-[380px]">
+                <div
+                  class="professional-logo w-[200px] h-[35px] bg-gray-500/50 flex mt-2 rounded-2xl pt-[1px]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-purple-500 group-hover:fill-white w-8 h-8 pl-3"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <h3
+                    class="text-purple-600 font-semibold text-[1.3rem] ml-2 group-hover:text-white"
+                  >
+                    Management
+                  </h3>
+                </div>
+                <h1 class="text-[1.7rem] mt-8">Professional Gym Manager</h1>
+                <div class="time-location flexx flex-col">
+                  <div class="time flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="stroke-[#a5a5a5] group-hover:stroke-white w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <p class="group-hover:text-white ml-3">Full Time Job</p>
+                  </div>
+                  <div
+                    class="location flex text-[#a5a5a5] hover:text-white mb-5"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6 stroke-[#a5a5a5] group-hover:stroke-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                    <p class="group-hover:text-white ml-3">New York Station</p>
+                  </div>
+                </div>
+                <div class="place flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    class="fill-teal-500 w-6 h-6"
+                  >
+                    <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                    <path
+                      d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"
+                    />
+                  </svg>
+                  <h2 class="text-teal-500 text-[1.3rem] ml-5 font-semibold">
+                    Gym Station
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <!-- End of Professional Career -->
+
+            <!-- Start of Senior Career -->
+            <div
+              class="senior group rounded-xl bg-career hover:bg-gradient-to-tr hover:from-violet-600 hover:to-purple-500 flex flex-col pt-16 mt-10 transition duration-500"
+            >
+              <div class="senior-card rounded-xl px-5 h-[300px]">
+                <div
+                  class="senior-logo w-[200px] h-[35px] bg-gray-500/50 flex mt-2 rounded-2xl pt-[1px]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-purple-500 group-hover:fill-white w-8 h-8 pl-3"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <h3
+                    class="text-purple-600 font-semibold text-[1.3rem] ml-2 group-hover:text-white"
+                  >
+                    Management
+                  </h3>
+                </div>
+                <h1 class="text-[1.7rem] mt-8">Senior Personal Trainer</h1>
+                <div class="time-location flexx flex-col">
+                  <div class="time flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="group-hover:stroke-white stroke-[#a5a5a5] w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <p class="group-hover:text-white ml-3">Full Time Job</p>
+                  </div>
+                  <div
+                    class="location flex text-[#a5a5a5] hover:text-white mb-5"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6 stroke-[#a5a5a5] group-hover:stroke-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                    <p class="group-hover:text-white ml-3">New York Station</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of Senior Career -->
+
+            <!-- Start of Personal Career -->
+            <div
+              class="senior group rounded-xl bg-career hover:bg-gradient-to-tr hover:from-violet-600 hover:to-purple-500 flex flex-col pt-16 mt-10 transition duration-500"
+            >
+              <div class="senior-card rounded-xl px-5 h-[300px]">
+                <div
+                  class="senior-logo w-[200px] h-[35px] bg-gray-500/50 flex mt-2 rounded-2xl pt-[1px]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-teal-500 group-hover:fill-white w-8 h-8 pl-3 mt-0"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <h3
+                    class="text-teal-500 font-semibold text-[1.1rem] ml-2 group-hover:text-white mt-1"
+                  >
+                    Personal Trainer
+                  </h3>
+                </div>
+                <h1 class="text-[1.7rem] mt-8">Personal Trainer</h1>
+                <p class="group-hover:text-white pr-6">
+                  We have been creating and implementing projects for many years
+                  all over the world.
+                </p>
+              </div>
+            </div>
+            <!-- End of Personal Career -->
+
+            <!-- Start of Diets Career -->
+            <div
+              class="diet group rounded-xl bg-career hover:bg-gradient-to-tr hover:from-violet-600 hover:to-purple-500 flex flex-col pt-16 mt-10 transition duration-500"
+            >
+              <div class="diet-card rounded-xl px-5 h-[300px]">
+                <div
+                  class="diet-logo w-[130px] h-[35px] bg-gray-500/50 flex mt-2 rounded-2xl pt-[1px]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-teal-500 group-hover:fill-white w-8 h-8 pl-3"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <h3
+                    class="text-teal-500 font-semibold text-[1.1rem] ml-2 group-hover:text-white mt-1"
+                  >
+                    Healthy
+                  </h3>
+                </div>
+                <h1 class="text-[1.7rem] mt-8">Diets Personal</h1>
+                <div class="time-location flexx flex-col">
+                  <div class="time flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="group-hover:stroke-white stroke-[#a5a5a5] w-6 h-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <p class="group-hover:text-white ml-3">Full Time Job</p>
+                  </div>
+                  <div
+                    class="location flex text-[#a5a5a5] hover:text-white mb-5"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-6 h-6 stroke-[#a5a5a5] group-hover:stroke-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                    <p class="group-hover:text-white ml-3">New York Station</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of Diets Career -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Start of About -->
+    <div
+      class="wrapper-about"
+      style="
+        background-image: radial-gradient(
+          circle 976px at 51.2% 51%,
+          rgba(26, 9, 42, 1) 0%,
+          rgb(26, 9, 42) 0%,
+          rgba(26, 9, 42, 1) 25.3%,
+          rgba(26, 9, 42, 1) 58.8%,
+          rgba(26, 9, 42, 1) 71.4%
+        );
+      "
+    >
+      <section
+        id="about"
+        class="bg-gradient-to-b from-shadow-first to-shadow-second w-full h-screen pt-[50px] px-5"
+      >
+        <div
+          class="hero-about relative h-[350px] before:w-[250px] before:h-[180px] before:bg-gradient-to-r before:from-purple-500 before:to-fuchsia-400 before:absolute before:bottom-[35px] before:left-[3px]"
+        >
+          <div
+            class="about-image w-[93%] h-[300px] bg-cover bg-no-repeat rounded-tr-[80px] absolute left-5"
+            style="
+              background-image: url(./images/women-about.jpg);
+              background-position: top 0 right -80px;
+            "
+          ></div>
+        </div>
+        <div class="about-content">
+          <h3
+            class="text-violet-700 mb-[30px] text-[1.2rem] font-semibold relative after:h-[5px] after:w-[45px] after:absolute after:rounded-lg after:top-[11px] after:left-[110px] after:bg-gradient-to-r after:from-violet-500 after:to-purple-500"
+          >
+            About Us
+          </h3>
+          <h1 class="text-[3rem] leading-[48px] mb-5 pr-8">
+            Dedicated training plan prepared for you.
+          </h1>
+          <p class="pr-16 pt-[10px]">
+            We create dietary and training plans so that you can achieve the
+            best results in the shortest possible time.
+          </p>
+        </div>
+      </section>
+    </div>
+    <!-- End of About -->
+
+    <!-- Start of Blog -->
+    <div
+      class="wrapper-blog w-full h-[240vh] mx-auto my-0 bg-red-500"
+      style="
+        background-image: radial-gradient(
+          circle 976px at 51.2% 51%,
+          rgba(26, 9, 42, 1) 0%,
+          rgb(26, 9, 42) 0%,
+          rgba(26, 9, 42, 1) 25.3%,
+          rgba(26, 9, 42, 1) 58.8%,
+          rgba(26, 9, 42, 1) 71.4%
+        );
+      "
+    >
+      <section
+        class="bg-gradient-to-b from-shadow-first to-shadow-second w-full h-[240vh] px-5"
+      >
+        <div class="blog-content pt-[40px]" id="blog">
+          <div class="tips-blog block">
+            <h1 class="leading-9">
+              Discover our nutrition posts and blog tips
+            </h1>
+            <p class="">
+              we have been creating and implementing projects for many years all
+              over the world, we have hundreads of satisfied customers.
+            </p>
+          </div>
+          <div class="main-blog mt-10">
+            <div class="healthy-food">
+              <div class="healthy-image">
+                <img
+                  src="./images/healthy-food.jpg"
+                  alt="healthy food"
+                  class="w-full h-[400px]"
+                />
+              </div>
+              <h1 class="mt-5">Healthy Food</h1>
+              <p class="">
+                Proper nutrition provides our body with the complex of vitamins
+                it needs and makes us feel better in this article, we'll show
+                you what to look for.
+              </p>
+            </div>
+            <div class="training-food">
+              <div class="training border-gray-700/60 mt-10 border-t-2">
+                <div
+                  class="training-image w-[120px] h-[120px] mt-5 bg-cover bg-no-repeat rounded-full"
+                  style="
+                    background-image: url(./images/sixpack.jpg);
+                    background-position: top -28px right 0;
+                  "
+                ></div>
+                <h3 class="mt-6 text-[1.2rem] font-medium text-purple-800">
+                  Training
+                </h3>
+                <h1 class="mt-5 text-[1.7rem]">How to stay fit in winter?</h1>
+                <p class="mt-4 text-[1.1rem]">
+                  In this article, we will show you tips on how to stay in shape
+                  during the winter. Check and share!
+                </p>
+              </div>
+              <div class="healthy-food border-gray-700/60 mt-10 border-t-2">
+                <div
+                  class="healthy-food-image w-[120px] h-[120px] mt-5 bg-cover bg-no-repeat rounded-full"
+                  style="
+                    background-image: url(./images/healthy-food.jpg);
+                    background-position: top -28px right 0;
+                  "
+                ></div>
+                <h3 class="mt-6 text-[1.2rem] font-medium text-purple-800">
+                  Healthy Food
+                </h3>
+                <h1 class="mt-5 text-[1.7rem]">Required for Dinner</h1>
+                <p class="mt-4 text-[1.1rem]">
+                  A recipe for quick and effective preparation of dinner. In
+                  this article, you will learn some recipes for delicious dinner
+                  dishes. For work or maybe at home? Take them with you!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="nav-blog">
+            <a
+              href="#"
+              class="h-[60px] w-[280px] font-semibold text-white bg-none rounded-[50px] pt-[15px] text-center inline-block text-[1.2em] border-2 border-purple-500 hover:bg-purple-500 active:bg-purple-600 transition duration-300"
+              >Check all blog<i
+                class="fa-solid fa-right-long ml-14 text-[1.4rem]"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End of Blog -->
+
+    <!-- Start of Contact -->
+    <div
+      class="wrapper-contact"
+      style="
+        background-image: radial-gradient(
+          circle 976px at 51.2% 51%,
+          rgba(26, 9, 42, 1) 0%,
+          rgb(116, 116, 116) 0%,
+          rgba(26, 9, 42, 1) 25.3%,
+          rgba(26, 9, 42, 1) 58.8%,
+          rgba(26, 9, 42, 1) 71.4%
+        );
+      "
+    >
+      <section id="contact" class="bg-black w-full h-[145vh] pt-[50px] px-5">
+        <div class="contact-form">
+          <form action="" class="">
+            <div class="main-contact">
+              <label for="" class="block">
+                <span class="block font-medium text-[1.2rem] mb-1"
+                  >Full Name</span
+                >
+                <input
+                  type="text"
+                  name="full-name"
+                  id="full-name"
+                  minlength="2"
+                  maxlength="20"
+                  autocomplete="none"
+                  placeholder="Your name and username"
+                  class="bg-price border-border-contact h-14 w-full pl-5 border-2 rounded-lg text-[1rem] focus:outline-none focus:bg-none mb-5"
+                />
+                <span class="block font-medium text-[1.2rem] mb-1">E-mail</span>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  autocomplete="none"
+                  placeholder="Your e-mail"
+                  class="bg-price border-border-contact h-14 w-full pl-5 border-2 rounded-lg text-[1rem] focus:outline-none focus:bg-none mb-5"
+                />
+                <span class="block font-medium text-[1.2rem] mb-1"
+                  >Phone number</span
+                >
+                <input
+                  type="text"
+                  name="phone-number"
+                  id="phone-number"
+                  minlength="10"
+                  maxlength="13"
+                  autocomplete="none"
+                  placeholder="Your phone number"
+                  class="bg-price border-border-contact h-14 w-full pl-5 border-2 rounded-lg text-[1rem] focus:outline-none focus:bg-none mb-5"
+                />
+              </label>
+            </div>
+            <div class="message pr-5">
+              <label for="message" class="block text-[1.2rem] font-medium mb-1"
+                >Message</label
+              >
+              <textarea
+                name="message"
+                id="message"
+                cols="23"
+                rows="10"
+                maxlength="300"
+                placeholder="Your message here"
+                class="bg-price text-[1rem] border-2 border-border-contact focus:outline-none focus:border-border-contact rounded-lg pl-5 pt-5"
+              ></textarea>
+            </div>
+            <div class="attachment-file mt-5">
+              <span class="block font-bold text-[1.2rem] mb-3"
+                >Attachment File</span
+              >
+              <p class="text-[1.03rem] leading-7 font-medium">
+                Please attach your document with your CV. Please remember that
+                the file should be best in the .PDF document and should not be
+                larger than [2MB].
+              </p>
+              <div
+                class="upload-file after:border-2 after:border-dotted after:border-border-contact after:rounded-lg relative after:absolute after:content-[attr(file-text)] after:text-[1rem] after:left-0 after:w-full after:h-14 after:pl-5 after:pt-[14px]"
+                file-text="Choose file..."
+              >
+                <input
+                  type="file"
+                  name="file-upload"
+                  id="file-upload"
+                  class="absolute z-10 opacity-0 cursor-pointer"
+                />
+              </div>
+            </div>
+            <div class="privacy-policy mt-24">
+              <input
+                type="checkbox"
+                name="privacy-policy"
+                id="privacy-policy"
+                class="scale-[1.5] bg-white outline-none"
+              />
+              <label
+                for="privacy-policy"
+                class="text-secondary inline-block ml-3"
+                >I agree to the
+                <a class="decoration-solid text-secondary font-medium underline"
+                  >Privacy Policy.</a
+                ></label
+              >
+            </div>
+          </form>
+          <div class="send-message">
+            <a
+              href="#"
+              class="h-[60px] w-[280px] mt-16 pt-4 font-semibold text-white bg-gradient-to-r from-purple-600 to-violet-500 rounded-[40px] text-center inline-block text-[1.2rem] hover:to-purple-600 transition duration-300"
+              >Send message<i
+                class="fa-solid fa-right-long ml-14 text-[1.4rem]"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End of Contact -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

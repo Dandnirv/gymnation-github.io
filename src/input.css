@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+
+  *,
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fefefe;
+  }
+
+  h1 {
+    color: #fefefe;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  p {
+    color: #a5a5a5;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  #menu-toggle {
+    animation: translate .4s;
+  }
+
+  @keyframes translate {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX0%);
+    }
+  }
+}
